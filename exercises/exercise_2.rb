@@ -1,8 +1,8 @@
 def adult_identifier(age)
   if age >= 18
-    return "Adult\n"
+    return "Adult"
   else
-    return "Not Adult\n"
+    return "Not Adult"
   end
 end
 p adult_identifier(18)
